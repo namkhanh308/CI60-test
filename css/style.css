@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-container {
+  width: 211px;
+  height: 355px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.user-image {
+  height: 275px;
+  background-image: url("");
+  background-size: cover;
+  padding: 1px 3px;
+}
+
+.user-info {
+  padding-left: 5px;
+  padding-top: 8px;
+}
+
+.user-name {
+  display: block;
+  color: rgb(37, 37, 37);
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.user-info-2 {
+  display: flex;
+  padding: 5px 0 10px 0;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.user-gender {
+  background-color: rgb(58, 58, 245);
+  border-radius: 10px;
+  display: inline-block;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.user-country {
+  background-color: rgb(58, 245, 58);
+  border-radius: 10px;
+  display: inline-block;
+  width: 70px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.user-phone {
+  background-color: rgb(48, 151, 165);
+  border-radius: 10px;
+  display: inline-block;
+  width: 110px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.user-favourite {
+  background-color: rgb(228, 225, 65);
+  border-radius: 10px;
+  display: inline-block;
+  width: 70px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
